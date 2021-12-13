@@ -13,9 +13,15 @@ body {
 h1 {
   font-size: 2.5rem;
   color: #2c292b;
+  text-align:center;
 }
 
 h2 {
   font-size: 1.5rem;
   color: #2c292b;
+}
+@media screen and (max-width:768px){
+  h1{
+    font-size:1.5rem;
+  }
 }
